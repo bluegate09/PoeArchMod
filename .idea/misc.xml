@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable/ic_baseline_arrow_drop_up_24.xml" value="0.2864583333333333" />
+        <entry key="app/src/main/res/drawable/ic_baseline_search_24.xml" value="0.15729166666666666" />
+        <entry key="app/src/main/res/drawable/listview_colours.xml" value="0.12083333333333333" />
+        <entry key="app/src/main/res/drawable/ripple.xml" value="0.13072916666666667" />
+        <entry key="app/src/main/res/drawable/roundcorner.xml" value="0.13072916666666667" />
+        <entry key="app/src/main/res/drawable/subtitle_layout.xml" value="0.18020833333333333" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.12708333333333333" />
+        <entry key="app/src/main/res/layout/child_layout.xml" value="0.45" />
+        <entry key="app/src/main/res/layout/grid_popup.xml" value="0.375" />
+        <entry key="app/src/main/res/layout/header_layout.xml" value="0.5" />
+        <entry key="app/src/main/res/layout/mod_layout.xml" value="0.375" />
+        <entry key="app/src/main/res/layout/mod_layout_alt.xml" value="0.10520833333333333" />
+        <entry key="app/src/main/res/layout/reward_filter_layout.xml" value="0.4036144578313253" />
+        <entry key="app/src/main/res/layout/subtitle_laout.xml" value="0.1640625" />
+        <entry key="app/src/main/res/layout/suggestion_layout.xml" value="0.4218106995884774" />
+        <entry key="app/src/main/res/menu/gird_popup.xml" value="0.12395833333333334" />
+        <entry key="app/src/main/res/menu/top_app_bar.xml" value="0.45" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.15729166666666666" />
+        <entry key="app/src/main/res/xml/searchable.xml" value="0.1640625" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">PoeArchnemesisMods</string>
+    <string name="desc_bloodletter">Items dropped from the Monster and its Minions are Corrupted</string>
+    <string name="desc_necromancer">Rewards are rolled 2 additional times, choosing the rarest result</string>
+    <string name="desc_rejuvenating">Rewards are rolled 1 additional time, choosing the rarest result</string>
+    <string name="desc_opulent">Monster is fabulously wealthy</string>
+    <string name="desc_treant_horde">Monster\'s Minions drop a randomly-chosen Reward Type</string>
+    <string name="desc_ice_prison">Rewards are rolled 1 additional time, choosing the rarest result</string>
+    <string name="desc_magma_barrier">Rewards are rolled 1 additional time, choosing the rarest result</string>
+    <string name="desc_mirror_image">Rewards are rolled 2 additional times, choosing the rarest result</string>
+    <string name="desc_mana_siphoner">Rewards are rolled 1 additional time, choosing the rarest result</string>
+    <string name="desc_corrupter">Items dropped from the Monster and its Minions are Corrupted</string>
+    <string name="desc_empowered_elements">Rewards are rolled 1 additional time, choosing the rarest result</string>
+    <string name="desc_effigy">Rewards are rolled 1 additional time, choosing the rarest result</string>
+    <string name="desc_lunaris_touched">All Reward Types have an additional reward</string>
+    <string name="desc_solaris_touched">All Reward Types have an additional reward</string>
+    <string name="desc_arakaali_touched">All Reward Types are Divination Cards</string>
+    <string name="desc_brine_king_touched">Rewards are rolled 6 additional times, choosing the rarest result</string>
+    <string name="desc_tukohama_touched">Rewards are rolled 4 additional times, choosing the rarest result</string>
+    <string name="desc_abberath_touched">Rewards are rolled 4 additional times, choosing the rarest result</string>
+    <string name="desc_shakari_touched">All Reward Types are Uniques</string>
+    <string name="desc_innocence_touched">All Reward Types are Currency</string>
+    <string name="desc_kitava_touched">Rewards are doubled</string>
+
+</resources>

@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+        <variable
+            name="reward"
+            type="chingyu.poearchnemesismods.Reward"/>
+
+        <variable
+            name="dataPasser"
+            type="chingyu.poearchnemesismods.RewardFilterDialog" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:background="#DD333333"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/f_title"
+            android:text="Filter"
+            android:layout_margin="8dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Title"
+            android:textColor="@color/dark_gold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <androidx.gridlayout.widget.GridLayout
+            android:id="@+id/f_grid_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/f_title"
+            app:alignmentMode="alignMargins"
+            app:columnCount="4"
+            app:useDefaultMargins="true">
+
+            <ImageButton
+                android:id="@+id/f_abyss"
+                android:background="@drawable/ripple"
+                android:layout_margin="4dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="@{() -> dataPasser.onDataPass(reward.ABYSS)}"
+                app:srcCompat="@drawable/reward_abyss"
+                android:focusable="true" />
+
+            <ImageButton
+                android:id="@+id/f_armour"
+                android:background="@drawable/ripple"
+                android:layout_margin="4dp"
+                android:onClick="@{() -> dataPasser.onDataPass(reward.ARMOUR)}"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/reward_armour" />
+
+            <ImageButton
+                android:id="@+id/f_blight"
+                android:background="@drawable/ripple"
+                android:layout_margin="4dp"
+                android:onClick="@{() -> dataPasser.onDataPass(reward.BLIGHT)}"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/reward_blight" />
+
+            <ImageButton
+                android:id="@+id/f_breach"
+                android:background="@drawable/ripple"
+                android:layout_margin="4dp"
+                android:onClick="@{() -> dataPasser.onDataPass(reward.BREACH)}"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/reward_breach" />
+
+            <ImageButton
+                android:id="@+id/f_metamorph"
+                android:background="@drawable/ripple"
+                android:layout_margin="4dp"
+                android:onClick="@{() -> dataPasser.onDataPass(reward.METAMORPH)}"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/reward_metamorph" />
+
+            <ImageButton
+                android:id="@+id/f_labyrinth"
+                android:background="@drawable/ripple"
+                android:layout_margin="4dp"
+                android:onClick="@{() -> dataPasser.onDataPass(reward.LABYRINTH)}"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/reward_labyrinth" />
+
+            <ImageButton
+                android:id="@+id/f_legion"
+                android:background="@drawable/ripple"
+                android:layout_margin="4dp"
+                android:onClick="@{() -> dataPasser.onDataPass(reward.LEGION)}"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/reward_legion" />
+
+            <ImageButton
+                android:id="@+id/f_harbinger"
+                android:background="@drawable/ripple"
+                android:layout_margin="4dp"
+                android:onClick="@{() -> dataPasser.onDataPass(reward.HARBINGER)}"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/reward_harbinger" />
+
+            <ImageButton
+                android:id="@+id/f_currency"
+                android:background="@drawable/ripple"
+                android:layout_margin="4dp"
+                android:onClick="@{() -> dataPasser.onDataPass(reward.CURRENCY)}"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/reward_currency" />
+
+            <ImageButton
+                android:id="@+id/f_generic"
+                android:background="@drawable/ripple"
+                android:layout_margin="4dp"
+                android:onClick="@{() -> dataPasser.onDataPass(reward.GENERIC)}"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/reward_generic" />
+
+            <ImageButton
+                android:id="@+id/f_gems"
+                android:background="@drawable/ripple"
+                android:layout_margin="4dp"
+                android:onClick="@{() -> dataPasser.onDataPass(reward.GEMS)}"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/reward_gems" />
+
+            <ImageButton
+                android:id="@+id/f_fragments"
+                android:background="@drawable/ripple"
+                android:layout_margin="4dp"
+                android:onClick="@{() -> dataPasser.onDataPass(reward.FRAGMENTS)}"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/reward_fragments" />
+
+            <ImageButton
+                android:id="@+id/f_delirium"
+                android:background="@drawable/ripple"
+                android:layout_margin="4dp"
+                android:onClick="@{() -> dataPasser.onDataPass(reward.DELIRIUM)}"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/reward_delirium" />
+
+            <ImageButton
+                android:id="@+id/f_fossils"
+                android:background="@drawable/ripple"
+                android:layout_margin="4dp"
+                android:onClick="@{() -> dataPasser.onDataPass(reward.FOSSILS)}"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/reward_fossils" />
+
+            <ImageButton
+                android:id="@+id/f_weapons"
+                android:background="@drawable/ripple"
+                android:layout_margin="4dp"
+                android:onClick="@{() -> dataPasser.onDataPass(reward.WEAPONS)}"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/reward_weapons" />
+
+            <ImageButton
+                android:id="@+id/f_uniques"
+                android:background="@drawable/ripple"
+                android:layout_margin="4dp"
+                android:onClick="@{() -> dataPasser.onDataPass(reward.UNIQUES)}"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/reward_uniques" />
+
+            <ImageButton
+                android:id="@+id/f_essences"
+                android:background="@drawable/ripple"
+                android:layout_margin="4dp"
+                android:onClick="@{() -> dataPasser.onDataPass(reward.ESSENCES)}"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/reward_essences" />
+
+            <ImageButton
+                android:id="@+id/f_trinkets"
+                android:background="@drawable/ripple"
+                android:layout_margin="4dp"
+                android:onClick="@{() -> dataPasser.onDataPass(reward.TRINKETS)}"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/reward_trinkets" />
+
+            <ImageButton
+                android:id="@+id/f_ritual"
+                android:background="@drawable/ripple"
+                android:layout_margin="4dp"
+                android:onClick="@{() -> dataPasser.onDataPass(reward.RITUAL)}"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/reward_ritual" />
+
+            <ImageButton
+                android:id="@+id/f_scarabs"
+                android:background="@drawable/ripple"
+                android:layout_margin="4dp"
+                android:onClick="@{() -> dataPasser.onDataPass(reward.SCARABS)}"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/reward_scarabs" />
+
+            <ImageButton
+                android:id="@+id/f_expedition"
+                android:background="@drawable/ripple"
+                android:layout_margin="4dp"
+                android:onClick="@{() -> dataPasser.onDataPass(reward.EXPEDITION)}"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/reward_expedition" />
+
+            <ImageButton
+                android:id="@+id/f_divination"
+                android:background="@drawable/ripple"
+                android:layout_margin="4dp"
+                android:onClick="@{() -> dataPasser.onDataPass(reward.DIVINATION)}"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/reward_divination" />
+
+            <ImageButton
+                android:id="@+id/f_all"
+                android:background="@drawable/ripple"
+                android:layout_margin="4dp"
+                android:onClick="@{() -> dataPasser.onDataPass(reward.ALL)}"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ic_baseline_cancel_24" />
+
+
+        </androidx.gridlayout.widget.GridLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
